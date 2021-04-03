@@ -1,0 +1,73 @@
+.name{
+  display: block;
+  padding: 15px;
+  border: 10px solid #F8DBC9;
+  margin: 20px;
+  }
+  .lastname{
+  display: block;
+  padding: 15px;
+  border: 10px solid #F8DBC9;
+  margin: 20px;
+  }
+   .activity{
+  display: block;
+  padding: 15px;
+  border: 10px solid #F8DBC9;
+  margin: 20px;
+   }
+  .email{
+  display: block;
+  padding: 15px;
+  border: 10px solid #F8DBC9;
+  margin: 20px;
+  }
+  .password {
+  display: block;
+  padding: 15px;
+  border: 10px solid #F8DBC9;
+  margin: 20px;
+  }
+  .username{
+      display: block;
+      padding: 15px;
+      border: 10px solid #F8DBC9;
+      margin: 20px;
+  }
+  #basketball{
+    display: block;
+    padding: 15px;
+    border: 10px solid #F8DBC9;
+    margin: 20px;
+    align-content: center;
+  }
+  #biking{
+      display: block;
+      padding: 15px;
+      border: 10px solid #F8DBC9;
+      margin: 20px;
+      align-content: center;
+    }
+  #skating{
+      display: block;
+      padding: 15px;
+      border: 10px solid #F8DBC9;
+      margin: 20px;
+      align-content: center;
+    }
+  #members{
+      display: block;
+      padding: 15px;
+      border: 10px solid #F8DBC9;
+      margin: 20px;
+      align-items: center;
+      align-content: center;
+  }
+  .container1 {
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+
+ 

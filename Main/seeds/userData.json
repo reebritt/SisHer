@@ -1,0 +1,83 @@
+[
+  {
+    "firstName": "Sal",
+    "lastName": "Miller",
+    "activity": "skating",
+    "email": "sal@hotmail.com",
+    "password": "password12"
+  },
+  {
+    "firstName": "Lernantino",
+    "lastName": "Jackson",
+    "activity": "basketball", 
+    "email": "lernantino@gmail.com",
+    "password": "password34"
+  },
+  {
+    "firstName": "Amiko",
+    "lastName": "Brown",
+    "activity": "skating",
+    "email": "amiko2k20@aol.com",
+    "password": "password45"
+  },
+  {
+    "firstName": "Brian",
+    "lastName": "Jones",
+    "activity": "biking",
+    "email": "myemail@gmail.com",
+    "password": "password67"
+  },
+
+  {
+    "firstName": "Sheree",
+    "lastName": "Britt",
+    "activity": "skating",
+    "email": "reebritt@icloud.com",
+    "password": "ree156*984"
+  },
+  {
+    "firstName": "Kathy",
+    "lastName": "Rodriguez",
+    "activity": "biking",
+    "email": "kathy@icloud.com",
+    "password": "kr357&J065"
+  },
+  {
+    "firstName": "Alexandra",
+    "lastName": "Capodilup",
+    "activity": "skating",
+    "email": "alexC@gmail.com",
+    "password": "ac632&M35"
+  },
+  {
+    "firstName": "Lismey",
+    "lastName": "Plasencia",
+    "activity": "biking",
+    "email": "lismay@gmail.com",
+    "password": "lo135p7N4"
+  },
+  {
+    "firstName": "Nathan",
+    "lastName": "Walker",
+    "activity": "basketball",
+    "email": "nawalker@gmail.com",
+    "password": "nw135&p895"
+  },
+  {
+    "firstName": "Josh",
+    "lastName": "Miller",
+    "activity": "basketball",
+    "email": "joshM@gmail.com",
+    "password": "hg897$M8"
+  },
+  {
+    "firstName": "Brandi",
+    "lastName": "Scott",
+    "activity": "biking",
+    "email": "brandiScott@icloud.com",
+    "password": "bs685#pl94"
+  }
+]
+
+
+

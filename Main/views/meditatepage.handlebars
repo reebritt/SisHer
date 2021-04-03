@@ -1,0 +1,38 @@
+<body>
+    <div class="container">
+        <h1>How long would you like to meditate for?</h1> <select id="time-length">
+            <option value="120" class="two">2 minutes</option>
+            <option value="300" class="five">5 minutes</option>
+            <option value="600" class="ten">10 minutes</option>
+            <option value="1200" class="twenty">20 minutes</option>
+        </select>
+        <p>What would you like to meditate on today?</p>
+        <div class="row">
+            <div class="col-sm">
+                <div class="btn" id="acceptance" data-number="1">Acceptance</div>
+                <div class="btn" id="patience" data-number="2">Patience</div>
+                <div class="btn" id="balance" data-number="2">Balance</div>
+                <div class="btn" id="anxiety" data-number="3">Anxiety</div>
+                <div class="btn" id="stress" data-number="4">Stress</div>
+            </div>
+        </div>
+        <button type="button" id="meditate">Meditate</button>
+        <h2 id="awnswerType"></h2>
+        <div id="app"></div>
+    </div>
+    <audio src="../Assets/meditate_audio.mp3"></audio>
+    <script type="text/javascript" src="./js/meditate.js"></script>
+    <script type="text/javascript">
+        var acceptanceArr = ['Happiness can only exist in Acceptance', 'No regrets..just lessons. No worries..just acceptance. No expectations..just gratitude', 'Accept then act.', 'Acceptance makes an incredible fertile soil for the seeds of change', 'Embrace the glorious mess that you are', 'Whatever comes let it come']
+        var patienceArr = ['Have patience with all things', 'Patience is not the ability to wait but the ability to keep a good attitude while waiting', 'Patience is bitter, but its fruit is sweet', "Patience is a virtue, and I'm learning patience is a tough lesson", "Patience is the ability to count down before you blast off"]
+        var balanceArr = ['Life is all about balance', 'Balance: stability found at the center of acceptance', 'Life is like riding a bike to keep you balanced you must keep moving', "Balance is not something you find, it's something you create", 'The key to finding a happy balance in modern life is simplicity', 'Find a balance in life']
+        var anxietyArr = ['Go easy on yourself, Whatever you do today, let it be enough', 'The way you speak to yourself matters', "Just because I can't explain the feelings causing why anxiety, doesn't make them less valid", 'Your anxiety is lying to you. You are loved and you are going to be okay.']
+        var stressArr = ["Don't stress the could haves, if it should have, it should have", 'The greatest weapon against stress is our ability to choose one thought over another', 'Today I refuse to stress myself out about things I cannot control or change', "It's not stress that kills us, it is our reaction to it", 'Stress and confusion come from being busy.Peace and clarity come from slowing down and stilling your waters']
+        var acceptance = document.getElementById('acceptance'); var balance = document.getElementById('balance'); var patience = document.getElementById('patience'); var anxiety = document.getElementById('anxiety'); var stress = document.getElementById('stress'); var displayQuote = document.getElementById('awnswerType'); acceptance.addEventListener('click', function () { var currentQuote = Math.floor(Math.random() * (acceptanceArr.length)); console.log(currentQuote); displayQuote.innerHTML = acceptanceArr[currentQuote]; })
+        patience.addEventListener('click', function () { var currentQuote = Math.floor(Math.random() * (patienceArr.length)); console.log(currentQuote); displayQuote.innerHTML = patienceArr[currentQuote]; })
+        balance.addEventListener('click', function () { var currentQuote = Math.floor(Math.random() * (balanceArr.length)); console.log(currentQuote); displayQuote.innerHTML = balanceArr[currentQuote]; })
+        anxiety.addEventListener('click', function () { var currentQuote = Math.floor(Math.random() * (anxietyArr.length)); console.log(currentQuote); displayQuote.innerHTML = anxietyArr[currentQuote]; })
+        stress.addEventListener('click', function () { var currentQuote = Math.floor(Math.random() * (stressArr.length)); console.log(currentQuote); displayQuote.innerHTML = stressArr[currentQuote]; })
+<script src='./js/meditate.js'></script>
+</body >
+
